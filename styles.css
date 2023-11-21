@@ -24,11 +24,19 @@
 .form-box {
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
   align-items: center;
   background-color: beige;
   padding: 60px 100px;
   border: 1px solid #ccc;
   border-radius: 1em;
+}
+
+.form-box h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 /* Label of box */
@@ -44,8 +52,14 @@
   box-sizing: border-box;
 }
 
-.form-box button {
-  box-sizing: border-box;
-  padding: 5px;
-  margin-top: 5;
+.buttonholder button {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  background-color: #3c493d;
+  color: white;
+  font-weight: 800;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
 }
